@@ -1,7 +1,7 @@
 <template>
   <section id="hero" class="h-screen bg-gray-700 bg-hero-image">
     <div
-      class="h-full flex flex-col items-center justify-center backdrop-blur backdrop-brightness-75 backdrop-contrast-125"
+      class="h-full flex flex-col items-center justify-center backdrop-blur-md backdrop-brightness-75 backdrop-contrast-125"
     >
       <div class="flex flex-col items-center justify-center absolute">
         <div class="rounded-lg bg-rose-500 backdrop-blur py-5 px-10 shadow-2xl">
