@@ -8,19 +8,45 @@
       <div class="w-full h-auto flex text-blue-100">
         <div class="w-6/12 m-4 flex flex-col">
           <div
-            class="bg-blue-800 p-8 mb-5 shadow-xl rounded-xl leading-loose text-lg"
-          >Located within a mature township with established amenities and a mere 6 minutes drive from exit gate Jakarta - Tangerang Highway.</div>
+            class="bg-blue-800 hover:bg-blue-700 hover:text-white hover:scale-105 transition duration-300 flex items-center p-8 mb-5 shadow-xl rounded-xl leading-loose text-lg"
+          >
+            <div class="w-6/12 text-center">
+              <font-awesome-icon class="text-6xl" :icon="['fas', 'map-marker-alt']" />
+            </div>
+            <div
+              class="pl-8"
+            >Located within a mature township with established amenities and a mere 6 minutes drive from exit gate Jakarta - Tangerang Highway.</div>
+          </div>
           <div
-            class="bg-blue-800 p-8 mt-5 shadow-xl rounded-xl leading-loose text-lg"
-          >Development options include complete redevelopment or possibly retention and re- purposing of the existing buildings combined with new development such as multi-storey housing / condominium and commercial amenities</div>
+            class="bg-blue-800 hover:bg-blue-700 hover:text-white hover:scale-105 transition duration-300 flex items-center p-8 mt-5 shadow-xl rounded-xl leading-loose text-lg"
+          >
+            <div class="w-6/12 text-center">
+              <font-awesome-icon class="text-6xl" :icon="['fas', 'route']" />
+            </div>
+            <div
+              class="pl-8"
+            >Development options include complete redevelopment or possibly retention and re- purposing of the existing buildings combined with new development such as multi-storey housing / condominium and commercial amenities.</div>
+          </div>
         </div>
         <div class="w-6/12 m-4 flex flex-col items-center justify-center">
           <div
-            class="bg-blue-800 p-8 mb-5 shadow-xl rounded-xl leading-loose text-lg"
-          >The Site is very suitable for a large-scale mixed use development.</div>
+            class="bg-blue-800 hover:bg-blue-700 hover:text-white hover:scale-105 transition duration-300 flex items-center p-8 mb-5 shadow-xl rounded-xl leading-loose text-lg"
+          >
+            <div class="w-3/12  text-center">
+              <font-awesome-icon class="text-6xl" :icon="['fas', 'shapes']" />
+            </div>
+            <div class="pl-8">The Site is very suitable for a large-scale mixed use development.</div>
+          </div>
           <div
-            class="bg-blue-800 p-8 mt-5 shadow-xl rounded-xl leading-loose text-lg"
-          >The surrounding areas around the subject property consist of many established amenities such as shopping and commercial facilities, educational institutions, housing estates (condominium and landed), recreational facilities including golf and country club and medical institutions.</div>
+            class="bg-blue-800 hover:bg-blue-700 hover:text-white hover:scale-105 transition duration-300 flex items-center p-8 mt-5 shadow-xl rounded-xl leading-loose text-lg"
+          >
+            <div class="w-6/12 text-center">
+              <font-awesome-icon class="text-6xl" :icon="['fas', 'hotel']" />
+            </div>
+            <div
+              class="pl-8"
+            >Development options include complete redevelopment or possibly retention and re- purposing of the existing buildings combined with new development such as multi-storey housing / condominium and commercial amenities</div>
+          </div>
         </div>
       </div>
     </div>
@@ -30,8 +56,8 @@
 <script>
 import RhcTitle from '../Partials/RhcTitle.vue'
 export default {
-  components: { RhcTitle },
   name: 'KeyInvestmentSection',
+  components: { RhcTitle },
 }
 </script>
 
