@@ -1,10 +1,10 @@
 <template>
   <div>
-    <hero/>
-    <development/>
-    <key-investment/>
-    <site/>
-    <contacts/>
+    <hero />
+    <development />
+    <key-investment />
+    <site />
+    <contacts />
   </div>
 </template>
 

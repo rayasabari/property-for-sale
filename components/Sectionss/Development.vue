@@ -1,7 +1,7 @@
 <template>
   <section id="development" class="min-h-screen bg-gray-50 flex flex-col items-center justify-center">
-    <div class="w-9/12 h-full my-24">
-      <rhc-title class="text-gray-800">Development Site</rhc-title>
+    <Container class="my-24">
+      <rhc-title class="text-blue-700">Development Site</rhc-title>
       <div class="w-full h-auto flex text-gray-700">
         <div class="w-6/12 m-4 flex items-center justify-center">
           <div
@@ -17,14 +17,15 @@
           >The opportunity consists of the outright purchase of the asset or the owning company of the asset (special purpose company). The land has a total land area of approximately 54,410 sqm.</div>
         </div>
       </div>
-    </div>
+    </Container>
   </section>
 </template>
 
 <script>
+import Container from '../Container.vue'
 import RhcTitle from '../Partials/RhcTitle.vue'
 export default {
-  components: { RhcTitle },
+  components: { RhcTitle, Container },
   name: 'DevelopmentSection',
 }
 </script>

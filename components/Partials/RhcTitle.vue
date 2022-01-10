@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full text-center mb-8">
+  <div class="w-full text-center mb-10">
     <h1 class="font-semibold text-3xl">
       <slot></slot>
     </h1>
