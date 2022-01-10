@@ -1,5 +1,5 @@
 <template>
-  <footer class="flex items-center justify-between p-5 text-xs text-gray-500 font-light">
+  <footer class="flex items-center justify-between p-5 text-xs bg-gray-50 text-gray-500 font-light">
     <div>
       &copy; 2022
       <a
