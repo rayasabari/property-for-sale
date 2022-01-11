@@ -54,7 +54,7 @@ export default {
         this.navColor = 'bg-transparent'
         this.activeColor = 'text-white'
       } else {
-        this.textColor = 'text-gray-500'
+        this.textColor = 'text-gray-400'
         this.textHover = 'text-blue-700'
         this.navColor = 'bg-white'
         this.activeColor = 'text-blue-700'

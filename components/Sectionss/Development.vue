@@ -1,5 +1,5 @@
 <template>
-  <section id="development" class="min-h-screen bg-gray-50 flex flex-col items-center justify-center">
+  <section id="development" class="min-h-screen bg-white flex flex-col items-center justify-center">
     <Container class="my-24">
       <rhc-title class="text-blue-700">Development Site</rhc-title>
       <div class="w-full h-auto flex text-gray-700">

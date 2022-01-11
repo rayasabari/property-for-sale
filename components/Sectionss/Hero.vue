@@ -18,7 +18,7 @@
                 class="px-6 py-3 border border-lime-300 rounded-lg font-medium bg-lime-300 hover:bg-lime-200 hover:border-lime-200 transition duration-300 text-lime-700"
               >More Info</a>
               <button
-                class="px-8 py-3 backdrop-blur-3xl border border-white-300 rounded-lg text-white font-medium hover:bg-white hover:text-lime-700 transition duration-300"
+                class="px-6 py-3 backdrop-blur-3xl border border-white-300 rounded-lg text-white font-medium hover:bg-white hover:text-lime-700 transition duration-300"
               >Request a Callback</button>
             </div>
           </div>
