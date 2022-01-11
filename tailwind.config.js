@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       backgroundImage:{
         'hero-image': "url('@/assets/images/bg-hero.jpg')",
+        'section-image': "url('@/assets/images/bg-section.jpeg')",
       }
     },
   },
