@@ -1,13 +1,13 @@
 <template>
   <div id="contacts" class="h-auto flex flex-col items-center justify-center">
-    <Container class="my-24">
+    <Container class="my-16 lg:my-24">
       <rhc-title desc="Lorem10" class="text-blue-700">Contacts</rhc-title>
-      <div class="w-full h-auto flex items-center justify-center space-x-7 pt-4">
+      <div class="w-full h-auto flex flex-col lg:flex-row items-center justify-center space-y-7 lg:space-y-0 lg:space-x-7 pt-4 px-3">
         <div
           v-for="(contact, index) in contacts"
           :key="index"
           :class="contact.bg"
-          class="w-80 shadow-lg overflow-hidden rounded-3xl hover:scale-105 hover:shadow-2xl transition duration-300"
+          class="w-full lg:w-80 shadow-lg overflow-hidden rounded-3xl hover:scale-105 hover:shadow-2xl transition duration-300"
         >
           <div class="flex flex-col">
             <div class="w-full p-10 flex">

@@ -4,18 +4,18 @@
     class="bg-section-image bg-cover"
   >
     <div class="flex flex-col items-center justify-center backdrop-blur-lg">
-      <Container class="my-24">
+      <Container class="my-16 lg:my-24">
         <rhc-title class="text-white">Key Investment Highlight</rhc-title>
-        <div class="w-full pt-4 h-auto flex flex-wrap text-blue-100">
+        <div class="w-full pt-4 h-auto flex flex-col lg:flex-row flex-wrap text-blue-100">
           <div
             v-for="(key, index) in keyInvestment"
             :key="index"
-            class="p-8 w-6/12 overflow-hidden text-white text-opacity-75 hover:text-opacity-100 hover:scale-105 transition duration-500 flex items-center rounded-xl leading-loose text-lg"
+            class="lg:p-8 mb-2 lg:mb-0 w-full lg:w-6/12 text-center lg:text-left overflow-hidden text-white text-opacity-75 hover:text-opacity-100 hover:scale-105 transition duration-500 flex flex-col lg:flex-row items-center rounded-xl leading-loose text-lg"
           >
             <div class="w-2/12 flex items-center justify-center h-full">
               <font-awesome-icon class="text-6xl text-white" :icon="['fas', key.icon]" />
             </div>
-            <div class="pl-8 w-10/12">{{ key.text }}.</div>
+            <div class="pt-6 pb-12 lg:py-0 lg:pl-8 w-10/12">{{ key.text }}.</div>
           </div>
         </div>
       </Container>
