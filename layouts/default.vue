@@ -19,6 +19,18 @@ export default {
       class: 'font-poppins text-gray-500',
     },
   },
+  mounted() {
+    this.setViewHeight()
+    window.addEventListener('resize', () => {
+      this.setViewHeight()
+    })
+  },
+  methods: {
+    setViewHeight: function () {
+      let vh = window.innerHeight * 0.01
+      document.documentElement.style.setProperty('--vh', `${vh}px`)
+    },
+  },
 }
 </script>
 
