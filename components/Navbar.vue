@@ -26,7 +26,7 @@
       </ul>
     </nav>
     <div class="flex items-center h-full justify-between w-full lg:hidden">
-      <div :class="textColor" class="lg:hidden">RHC</div>
+      <div :class="textColor" class="lg:hidden">RHC Logo</div>
       <button @click="menuClick" :class="textColor" class="block lg:hidden z-40">
         <svg
           xmlns="http://www.w3.org/2000/svg"
