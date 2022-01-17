@@ -2,9 +2,9 @@
   <header
     class="flex bg-white z-40 bg-opacity-70 items-center justify-center shadow-sm text-xl lg:text-base font-medium backdrop-blur-sm transition duration-500 h-12 lg:h-16 fixed w-full"
   >
-    <div class="flex flex-col lg:flex-row-reverse w-11/12 lg:w-10/12 ">
+    <div class="flex flex-col items-center lg:flex-row-reverse w-11/12 lg:w-10/12 ">
       <nav
-        :class="!open ? 'hidden' : 'bg-white'"
+        :class="!open ? 'hidden' : 'bg-white -mt-2 lg:mt-0'"
         class="lg:block flex flex-col items-center justify-center absolute lg:static w-full h-screen lg:h-auto transition duration-500"
       >
         <ul
