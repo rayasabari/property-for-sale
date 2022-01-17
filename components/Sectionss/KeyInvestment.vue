@@ -1,7 +1,7 @@
 <template>
   <section
     id="keyinvestment"
-    class="bg-section-image bg-cover"
+    class="bg-indigo-600 bg-cover"
   >
     <div class="flex flex-col items-center justify-center backdrop-blur-lg">
       <Container class="my-16 lg:my-24">
