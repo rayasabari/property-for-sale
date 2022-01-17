@@ -10,44 +10,6 @@
         <ul
           class="flex flex-col lg:flex-row lg:space-x-2 items-center justify-center text-center lg:justify-end"
         >
-<<<<<<< HEAD
-          <rhc-link
-            :textColor="textColor"
-            :textHover="textHover"
-            :activeColor="activeColor"
-            :active="l.to == isActive"
-            :to="l.to"
-          >{{l.section}}</rhc-link>
-        </li>
-      </ul>
-    </nav>
-    <div class="flex items-center h-full justify-between w-full lg:hidden">
-      <div :class="textColor" class="lg:hidden">RHC Logo</div>
-      <button @click="menuClick" :class="textColor" class="block lg:hidden z-40">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            v-if="!open"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M4 6h16M4 12h16m-7 6h7"
-          />
-          <path
-            v-else
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M6 18L18 6M6 6l12 12"
-          />
-        </svg>
-      </button>
-=======
           <li
             :class="textColor"
             class="px-3 py-3 lg:py-0"
@@ -92,7 +54,6 @@
           </svg>
         </button>
       </div>
->>>>>>> development-2
     </div>
   </header>
 </template>
