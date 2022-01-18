@@ -1,7 +1,7 @@
 <template>
   <section id="development" class="min-h-screen bg-white flex flex-col items-center justify-center">
     <Container class="my-16 lg:my-24">
-      <rhc-title class="text-indigo-600">Development Site</rhc-title>
+      <rhc-title class="text-orange-400">Development Site</rhc-title>
       <div class="w-full text-center lg:text-left h-auto flex flex-col lg:flex-row items-center justify-center text-gray-700">
         <div class="w-full lg:w-6/12 m-2 lg:m-4 flex items-center justify-center">
           <div

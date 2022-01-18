@@ -3,8 +3,8 @@
     <h1 class="font-semibold text-3xl">
       <slot></slot>
     </h1>
-    <div class="mt-4 text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, obcaecati.
-    </div>
+    <!-- <div class="mt-4 text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, obcaecati.
+    </div> -->
   </div>
 </template>
 

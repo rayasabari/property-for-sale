@@ -25,6 +25,9 @@ module.exports = {
     extend: {
       backgroundImage:{
         'hero-image': "url('@/assets/images/bg-hero.jpg')",
+        'hero-image-1': "url('@/assets/images/bg-1.jpg')",
+        'hero-image-2': "url('@/assets/images/bg-2.jpg')",
+        'hero-image-3': "url('@/assets/images/bg-3.jpg')",
         'section-image': "url('@/assets/images/bg-section.jpeg')",
       }
     },

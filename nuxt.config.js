@@ -55,7 +55,7 @@ export default {
   fontawesome: {
     icons: {
       solid: ['faRoute','faMapMarkerAlt','faHotel','faShapes','faPhoneSquare'],
-      brands: ['faWhatsappSquare','faWhatsapp'],
+      brands: ['faWhatsappSquare','faWhatsapp','faFacebook','faInstagram','faTwitter','faYoutube'],
     }
   },
 

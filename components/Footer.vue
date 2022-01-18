@@ -1,32 +1,43 @@
 <template>
-  <footer class="flex h-16 items-center justify-center text-xs text-gray-400 font-light">
-    <Container class="flex justify-between border-t pt-4 pb-8">
+  <footer class="flex items-center justify-center text-sm text-gray-400 font-light">
+    <Container class="flex justify-between items-center border-t p-8">
       <div>
         &copy; 2022
         <a
           href="https://rantaka.id"
-          class="font-normal hover:text-blue-700 transition duration-300"
-        >RHR</a> x
+          class="font-normal hover:text-orange-400 transition duration-300"
+        >RHR</a> &
         <a
           href="https://www.colliers.com/en-id"
-          class="font-normal hover:text-blue-700 transition duration-300"
+          class="font-normal hover:text-orange-400 transition duration-300"
         >Colliers</a>
       </div>
-      <div>
-        Developed by
-        <a
-          href="https://rayasabari.com"
-          class="font-normal hover:text-blue-700 transition duration-300"
-        >RYSB</a>
+      <div class="space-x-3">
+        <font-awesome-icon
+          class="text-2xl text-gray-400 transition duration-500 hover:scale-105 hover:text-orange-400"
+          :icon="['fab', 'facebook']"
+        />
+        <font-awesome-icon
+          class="text-2xl text-gray-400 transition duration-500 hover:scale-105 hover:text-orange-400"
+          :icon="['fab', 'twitter']"
+        />
+        <font-awesome-icon
+          class="text-2xl text-gray-400 transition duration-500 hover:scale-105 hover:text-orange-400"
+          :icon="['fab', 'instagram']"
+        />
+        <font-awesome-icon
+          class="text-2xl text-gray-400 transition duration-500 hover:scale-105 hover:text-orange-400"
+          :icon="['fab', 'youtube']"
+        />
       </div>
     </Container>
   </footer>
 </template>
 
 <script>
-import Container from "./Container.vue"
+import Container from './Container.vue'
 
-export default{
+export default {
   components: { Container },
   name: 'FooterComponent',
 }
