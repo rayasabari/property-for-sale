@@ -1,6 +1,6 @@
 <template>
   <section id="keyinvestment" class="bg-white">
-    <div class="flex flex-col items-center justify-center backdrop-blur-lg">
+    <div class="flex flex-col items-center justify-center">
       <Container class="my-16 lg:my-24">
         <rhc-title class="text-orange-400">Key Investment Highlight</rhc-title>
         <div class="w-full pt-4 lg:pt-8 h-auto flex flex-col lg:flex-row text-orange-700">

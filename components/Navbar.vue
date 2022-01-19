@@ -28,7 +28,7 @@
         </ul>
       </nav>
       <div class="flex items-center h-full justify-between w-full lg:w-auto">
-        <rhc-link to="#hero" class="w-60 text-xl font-bold text-orange-400 hover:text-orange-500 transition duration-300">Hotel For Sale</rhc-link>
+        <rhc-link to="#hero" class="w-60 text-xl font-bold text-orange-400 hover:text-orange-500 transition duration-300">Property For Sale</rhc-link>
         <button @click="menuClick" :class="textColor" class="block lg:hidden z-40">
           <svg
             xmlns="http://www.w3.org/2000/svg"

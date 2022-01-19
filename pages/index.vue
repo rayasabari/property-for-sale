@@ -18,7 +18,7 @@ export default {
   components: { Hero, KeyInvestment, Site, Contacts, About },
   name: 'IndexPage',
   head: {
-    title: 'RHC',
+    title: 'Property For Sale',
   },
 }
 </script>
