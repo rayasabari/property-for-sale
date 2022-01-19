@@ -19,12 +19,12 @@
               <a
                 :href="contact.wa"
                 target="_blank"
-                class="flex items-center opacity-100 hover:opacity-70 transition duration-300 justify-center space-x-2"
+                class="flex items-center opacity-80 hover:opacity-100 transition duration-300 justify-center space-x-1"
               >
                 <div class="p-2 space-x-1">
                   <font-awesome-icon
-                    class="text-4xl text-emerald-400"
-                    :icon="['fab', 'whatsapp-square']"
+                    class="text-4xl text-orange-500"
+                    :icon="['fab', 'whatsapp']"
                   />
                 </div>
                 <h1

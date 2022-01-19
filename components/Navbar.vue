@@ -1,10 +1,11 @@
 <template>
   <header
-    class="flex bg-white z-40 bg-opacity-90 items-center justify-center shadow-sm text-xl lg:text-base font-medium backdrop-blur-sm transition duration-500 h-12 lg:h-16 fixed w-full"
+    :class="navColor"
+    class="flex z-40 bg-opacity-90 items-center justify-center shadow-sm text-xl lg:text-base font-medium backdrop-blur-md transition duration-500 h-12 lg:h-16 fixed w-full"
   >
     <div class="flex flex-col items-center lg:flex-row-reverse w-11/12 lg:w-10/12">
       <nav
-        :class="!open ? 'hidden' : 'bg-white -mt-2 lg:mt-0'"
+        :class="!open ? `hidden` : 'bg-white -mt-2 lg:mt-0'"
         class="lg:block flex flex-col items-center justify-center absolute lg:static w-full h-screen lg:h-auto transition duration-500"
       >
         <ul
@@ -28,11 +29,14 @@
         </ul>
       </nav>
       <div class="flex items-center h-full justify-between w-full lg:w-auto">
-        <rhc-link to="#hero" class="w-60 text-xl font-bold text-orange-400 hover:text-orange-500 transition duration-300">
-          <span class="text-gray-500">Property</span>
+        <rhc-link
+          to="#hero"
+          class="w-60 text-xl font-bold text-orange-400 hover:text-orange-500 transition duration-500"
+        >
+          <span :class="brandColor">Property</span>
           <span>For Sale</span>
         </rhc-link>
-        <button @click="menuClick" :class="textColor" class="block lg:hidden z-40">
+        <button @click="menuClick" :class="open ? 'text-gray-500' : brandColor" class="block lg:hidden z-40">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-6 w-6"
@@ -74,10 +78,11 @@ export default {
         { to: '#about', section: 'About Us' },
         { to: '#contacts', section: 'Contact Us' },
       ],
-      textColor: 'text-gray-500',
-      navColor: 'bg-white',
-      navColorSm: '',
-      activeColor: 'text-orange-500',
+      textColor: 'text-white text-opacity-50',
+      navColor: '',
+      navColorSm: 'text-white',
+      brandColor: 'text-white',
+      activeColor: 'text-white',
       textHover: 'text-orange-500',
       isActive: '#hero',
       scrollPosition: null,
@@ -85,7 +90,7 @@ export default {
     }
   },
   mounted() {
-    // window.addEventListener('scroll', this.updateScroll)
+    window.addEventListener('scroll', this.updateScroll)
   },
   methods: {
     active(to) {
@@ -102,19 +107,22 @@ export default {
     updateScroll() {
       this.scrollPosition = window.scrollY
       if (this.scrollPosition < 100) {
-        // this.textColor = 'text-gray-500 lg:text-white lg:text-opacity-50'
-        // this.textHover = 'text-orange-500 lg;text-white'
-        // this.navColor = 'bg-transparent'
-        // this.activeColor = 'text-orange-500 lg:text-white'
-        this.textColor = 'text-gray-500'
-        this.textHover = 'text-orange-500'
-        this.navColor = 'bg-white'
-        this.activeColor = 'text-orange-500'
+        this.textColor = 'text-white-500 lg:text-white lg:text-opacity-50'
+        this.textHover = 'text-orange-500 lg;text-white'
+        this.navColor = 'bg-transparent'
+        this.activeColor = 'text-orange-500 lg:text-white'
+        this.brandColor = 'text-white'
+
+        //  this.textColor = 'text-gray-500'
+        //   this.textHover = 'text-orange-500'
+        //   this.navColor = 'bg-white'
+        //   this.activeColor = 'text-orange-500'
       } else {
         this.textColor = 'text-gray-500'
         this.textHover = 'text-orange-500'
         this.navColor = 'bg-white'
         this.activeColor = 'text-orange-500'
+        this.brandColor = 'text-gray-500'
       }
     },
   },
