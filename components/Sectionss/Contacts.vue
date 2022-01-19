@@ -16,7 +16,7 @@
             class="w-full lg:w-2/12 hover:scale-110 overflow-hidden rounded-3xl transition duration-300"
           >
             <div class="flex flex-col">
-              <div class=" flex items-center justify-center space-x-2">
+              <a :href="contact.wa" target="_blank" class=" flex items-center justify-center space-x-2">
                 <div class="p-2 space-x-1">
                   <font-awesome-icon
                     class="text-4xl text-emerald-400 transition duration-500"
@@ -24,7 +24,7 @@
                   />
                 </div>
                 <h1 class="text-xl font-medium text-gray-600">{{ contact.nama }}</h1>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -44,17 +44,20 @@ export default {
       contacts: [
          {
           nama: 'Ringkardo',
-          phone: '+62-8123-45XX-XX',
+          phone: '+62 812-8000-0380',
+          wa: 'https://wa.me/6281280000380',
           bg: '',
         },
         {
           nama: 'Vania',
-          phone: '+62-8123-45XX-XX',
+          phone: '+62 813-1931-5077',
+          wa: 'https://wa.me/6281319315077',
           bg: '',
         },
         {
           nama: 'Elfira',
-          phone: '+62-8123-45XX-XX',
+          phone: '+62 812-4512-8181',
+          wa: 'https://wa.me/6281245128181',
           bg: '',
         },
       ],

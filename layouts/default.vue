@@ -1,7 +1,6 @@
 <template>
   <div>
     <Navbar></Navbar>
-    <rhc-floating />
     <main>
       <Nuxt></Nuxt>
     </main>
@@ -10,9 +9,7 @@
 </template>
 
 <script>
-import RhcFloating from '~/components/Partials/RhcFloating.vue'
 export default {
-  components: { RhcFloating },
   name: 'DefaultLayout',
   head: {
     htmlAttrs: {

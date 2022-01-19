@@ -5,17 +5,19 @@
     <site />
     <about/>
     <contacts/>
+    <rhc-floating/>
   </div>
 </template>
 
 <script>
+import RhcFloating from '~/components/Partials/RhcFloating.vue'
 import About from '~/components/Sectionss/About.vue'
 import Contacts from '~/components/Sectionss/Contacts.vue'
 import Hero from '~/components/Sectionss/Hero.vue'
 import KeyInvestment from '~/components/Sectionss/KeyInvestment.vue'
 import Site from '~/components/Sectionss/Site.vue'
 export default {
-  components: { Hero, KeyInvestment, Site, Contacts, About },
+  components: { Hero, KeyInvestment, Site, Contacts, About, RhcFloating },
   name: 'IndexPage',
   head: {
     title: 'Property For Sale',
