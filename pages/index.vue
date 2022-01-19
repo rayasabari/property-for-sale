@@ -3,9 +3,9 @@
     <hero />
     <key-investment />
     <site />
-    <about/>
-    <contacts/>
-    <rhc-floating/>
+    <about />
+    <contacts @sendToFloating="sendToFloat"/>
+    <rhc-floating :contacts="contacts" />
   </div>
 </template>
 
@@ -21,6 +21,16 @@ export default {
   name: 'IndexPage',
   head: {
     title: 'Property For Sale',
+  },
+  data() {
+    return {
+      contacts: [],
+    }
+  },
+  methods: {
+    sendToFloat(data) {
+      this.contacts = data;
+    },
   },
 }
 </script>
