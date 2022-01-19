@@ -5,7 +5,7 @@
     >
       <Container>
         <div class="flex lg:flex-row flex-col justify-between items-end w-full">
-          <div class="lg:w-7/12 h-auto">
+          <div class="lg:w-7/12 h-auto text-center lg:text-left">
             <div
               class="text-3xl lg:text-5xl text-white font-semibold leading-snug lg:leading-none mb-5"
             >Hotel for Sale and Investment Opportunities</div>
@@ -15,7 +15,7 @@
             <div class="space-x-3">
               <a
                 href="#keyinvestment"
-                class="px-6 py-3  rounded-lg font-medium bg-orange-400 hover:bg-orange-500 transition duration-300 text-white"
+                class="px-6 py-3 rounded-lg font-medium bg-orange-400 hover:bg-orange-500 transition duration-300 text-white"
               >More Info</a>
             </div>
           </div>
