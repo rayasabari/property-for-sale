@@ -28,7 +28,10 @@
         </ul>
       </nav>
       <div class="flex items-center h-full justify-between w-full lg:w-auto">
-        <rhc-link to="#hero" class="w-60 text-xl font-bold text-orange-400 hover:text-orange-500 transition duration-300">Property For Sale</rhc-link>
+        <rhc-link to="#hero" class="w-60 text-xl font-bold text-orange-400 hover:text-orange-500 transition duration-300">
+          <span class="text-gray-500">Property</span>
+          <span>For Sale</span>
+        </rhc-link>
         <button @click="menuClick" :class="textColor" class="block lg:hidden z-40">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +102,7 @@ export default {
     updateScroll() {
       this.scrollPosition = window.scrollY
       if (this.scrollPosition < 100) {
-        // this.textColor = 'text-gray-400 lg:text-white lg:text-opacity-50'
+        // this.textColor = 'text-gray-500 lg:text-white lg:text-opacity-50'
         // this.textHover = 'text-orange-500 lg;text-white'
         // this.navColor = 'bg-transparent'
         // this.activeColor = 'text-orange-500 lg:text-white'
