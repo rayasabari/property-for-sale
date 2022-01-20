@@ -1,7 +1,7 @@
 <template>
   <div
     id="contacts"
-    class="h-auto bg-hero-image-2 bg-cover backdrop-filter backdrop-blur bg-opacity-50"
+    class="h-auto bg-hero-image-3 bg-cover backdrop-filter backdrop-blur bg-opacity-50"
   >
     <div class="flex flex-col items-center justify-center bg-white bg-opacity-90">
       <Container class="my-16 lg:my-24">
