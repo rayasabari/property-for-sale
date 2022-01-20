@@ -44,6 +44,7 @@ export default {
     // '@nuxtjs/tailwindcss',
     '@nuxt/postcss8',
     '@nuxtjs/fontawesome',
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -54,8 +55,8 @@ export default {
 
   fontawesome: {
     icons: {
-      solid: ['faRoute','faMapMarkerAlt','faHotel','faShapes','faPhoneSquare'],
-      brands: ['faWhatsappSquare','faWhatsapp','faFacebook','faInstagram','faTwitter','faYoutube'],
+      solid: ['faRoute', 'faMapMarkerAlt', 'faHotel', 'faShapes', 'faPhoneSquare'],
+      brands: ['faWhatsappSquare', 'faWhatsapp', 'faFacebook', 'faInstagram', 'faTwitter', 'faYoutube'],
     }
   },
 
@@ -63,6 +64,10 @@ export default {
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: '/',
+  },
+
+  googleAnalytics: {
+    id: 'UA-217719492-1'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
