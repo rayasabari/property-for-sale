@@ -19,17 +19,13 @@
               <a
                 :href="contact.wa"
                 target="_blank"
+                rel="noopener"
                 class="flex items-center opacity-80 hover:opacity-100 transition duration-300 justify-center space-x-1"
               >
                 <div class="p-2 space-x-1">
-                  <font-awesome-icon
-                    class="text-4xl text-orange-500"
-                    :icon="['fab', 'whatsapp']"
-                  />
+                  <font-awesome-icon class="text-4xl text-orange-500" :icon="['fab', 'whatsapp']" />
                 </div>
-                <h1
-                  class="text-xl font-medium text-gray-600"
-                >{{ contact.nama }}</h1>
+                <h1 class="text-xl font-medium text-gray-600">{{ contact.nama }}</h1>
               </a>
             </div>
           </div>
@@ -69,9 +65,9 @@ export default {
       ],
     }
   },
-  mounted(){
-    this.$emit('sendToFloating', this.contacts);
-  }
+  mounted() {
+    this.$emit('sendToFloating', this.contacts)
+  },
 }
 </script>
 

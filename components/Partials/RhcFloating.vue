@@ -14,7 +14,7 @@ export default {
   methods: {
     callWa(){
       let link = this.contacts[Math.floor(Math.random() * 3)].wa;
-      window.open(link) || window.location.replace(link);
+      window.location.replace(link);
     }
   }
 }
