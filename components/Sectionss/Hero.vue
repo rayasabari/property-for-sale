@@ -1,7 +1,7 @@
 <template>
   <section id="hero" class="h-screen bg-gray-700 bg-hero-image-3 bg-cover">
     <div
-      class="h-full flex items-center justify-center backdrop-filter backdrop-brightness-50 backdrop-contrast-150 bg-gray-700 bg-opacity-70"
+      class="h-full flex items-center justify-center backdrop-filter backdrop-brightness-75 backdrop-contrast-150 bg-gray-700 bg-opacity-70"
     >
       <Container>
         <div class="flex lg:flex-row flex-col justify-between items-end w-full">

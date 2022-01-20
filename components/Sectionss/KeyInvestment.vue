@@ -13,12 +13,12 @@
               class="w-2/12 flex lg:mb-5 items-center lg:items-start justify-center h-full lg:h-auto"
             >
               <font-awesome-icon
-                class="text-6xl text-orange-300 lg:mb-4"
+                class="text-6xl text-orange-400 lg:mb-4"
                 :icon="['fas', key.icon]"
               />
             </div>
             <div class="pt-6 pb-12 lg:py-0 w-10/12">
-              <div class="text-xl mb-2 font-medium text-orange-300">{{key.heading}}</div>
+              <div class="text-xl mb-2 font-medium text-orange-400">{{key.heading}}</div>
               {{ key.text }}
             </div>
           </div>
